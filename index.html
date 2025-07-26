@@ -1,5 +1,505 @@
-<html>
-  <body>
-    <h1>효무엘의 포트폴리오</h1>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>효무엘 | Portfolio</title>
+    <meta name="title" content="효무엘 | Portfolio">
+    <meta name="description" content="효무엘의 포트폴리오입니다. React, Node.js, Python을 활용한 웹 개발과 모바일 앱 개발 경험을 보여줍니다. 창의적인 디지털 경험을 만드는 개발자입니다.">
+    <meta name="keywords" content="효무엘, 포트폴리오, 웹개발자, 풀스택개발자, React, Node.js, Python, 웹디자인, 모바일앱, 프론트엔드, 백엔드">
+    <meta name="author" content="효무엘">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Korean">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.hyomuel.com/">
+    <meta property="og:title" content="효무엘 | Portfolio">
+    <meta property="og:description" content="효무엘의 포트폴리오입니다. React, Node.js, Python을 활용한 웹 개발과 모바일 앱 개발 경험을 보여줍니다.">
+    <meta property="og:image" content="https://github.hyomuel.com/image.png">
+    <meta property="og:site_name" content="효무엘 | Portfolio">
+    <meta property="og:locale" content="ko_KR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.hyomuel.com/">
+    <meta property="twitter:title" content="효무엘 | Portfolio">
+    <meta property="twitter:description" content="효무엘의 포트폴리오입니다. React, Node.js, Python을 활용한 웹 개발과 모바일 앱 개발 경험을 보여줍니다.">
+    <meta property="twitter:image" content="https://github.hyomuel.com/image.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#00d4ff">
+    <meta name="msapplication-TileColor" content="#00d4ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="효무엘 | Portfolio">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://github.hyomuel.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="image.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image.png">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "효무엘",
+        "jobTitle": "Full-Stack Developer",
+        "description": "창의적인 디지털 경험을 만드는 풀스택 개발자",
+        "url": "https://github.hyomuel.com",
+        "image": "https://github.hyomuel.com/image.png",
+        "email": "help@hyomuel.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Seoul",
+            "addressCountry": "KR"
+        },
+        "sameAs": [
+            "https://github.com/hyomuel",
+            "https://linkedin.com/in/hyomuel",
+            "https://twitter.com/hyomuel"
+        ],
+        "knowsAbout": [
+            "React", "Node.js", "Python", "JavaScript", "TypeScript", 
+            "Web Development", "Mobile App Development", "UI/UX Design"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance Developer"
+        }
+    }
+    </script>
+    
+    <!-- Website Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "효무엘 | Portfolio",
+        "url": "https://github.hyomuel.com",
+        "description": "효무엘의 포트폴리오 웹사이트",
+        "author": {
+            "@type": "Person",
+            "name": "효무엘"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://github.hyomuel.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 배경 효과 -->
+    <div class="background-effects">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- 네비게이션 -->
+    <nav class="navbar" role="navigation" aria-label="메인 네비게이션">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <div class="logo-dot"></div>
+                    <div class="logo-line"></div>
+                </div>
+                <span class="logo-text">효무엘</span>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link" role="menuitem" aria-label="홈으로 이동">
+                        <span class="nav-number">01</span>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem" aria-label="소개 섹션으로 이동">
+                        <span class="nav-number">02</span>
+                        <span class="nav-text">About</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#work" class="nav-link" role="menuitem" aria-label="프로젝트 섹션으로 이동">
+                        <span class="nav-number">03</span>
+                        <span class="nav-text">Work</span>
+                    </a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem" aria-label="연락처 섹션으로 이동">
+                        <span class="nav-number">04</span>
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <div class="toggle-line"></div>
+                <div class="toggle-line"></div>
+                <div class="toggle-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Available for work</span>
+                    <div class="badge-dot"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">미래로</span> <span class="title-line">걸어나가는</span> <span class="title-line">개발자가 되자</span>
+                </h1>
+                <p class="hero-subtitle">
+                    안녕하세요! 디스코드 봇 개발과 AI 기술에 푹 빠져 끊임없이 배우고 성장하고 있는 학생 개발자 효무엘입니다.
+                    사용자에게 즐거움과 편리함을 선물하는 서비스를 만드는 것을 목표로, 여러 서비스 개발과 독학에 열정을 쏟고 있어요.
+                </p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn btn-primary">
+                        <span class="btn-text">View Projects</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="btn-text">Get in Touch</span>
+                        <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="rotating-cube">
+                    <div class="cube">
+                        <div class="cube-face front">
+                            <i class="fas fa-code"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="cube-face back">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="cube-face right">
+                            <i class="fas fa-palette"></i>
+                            <span>Design</span>
+                        </div>
+                        <div class="cube-face left">
+                            <i class="fas fa-rocket"></i>
+                            <span>Fast</span>
+                        </div>
+                        <div class="cube-face top">
+                            <i class="fas fa-brain"></i>
+                            <span>AI</span>
+                        </div>
+                        <div class="cube-face bottom">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-particles">
+                    <div class="particle" data-speed="1"></div>
+                    <div class="particle" data-speed="1.5"></div>
+                    <div class="particle" data-speed="2"></div>
+                    <div class="particle" data-speed="1.2"></div>
+                    <div class="particle" data-speed="1.8"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- 소개 섹션 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">디스코드 봇, AI 개발을 좋아하는 개발자</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-block">
+                        <h3>Vision</h3>
+                        <p>사용자가 사용하기 편한 서비스를 만들고, 더 나은 미래를 만드는 것을 목표로 하고 있어요.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Learning Style</h3>
+                        <p>새로운 기술을 빠르게 습득하고 적용하는 것을 좋아하며, 독학을 통해 지속적으로 성장하고 있어요.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Expertise</h3>
+                        <p>Python, Node.js를 이용한 디스코드 봇, AI를 이용한 기능과 Next.js, Reflex등을 이용한 풀스택 개발을 할 수 있어요.</p>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-profile">
+                        <div class="profile-image">
+                            <img src="image.png" alt="효무엘 프로필 사진" loading="lazy">
+                            <div class="profile-overlay">
+                                <div class="profile-info">
+                                    <h3>효무엘</h3>
+                                    <p>Full-Stack Student Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-grid">
+                        <div class="tech-item" data-tech="Next.js">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Discord.js">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="tech-item" data-tech="TypeScript">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="tech-item" data-tech="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로젝트 섹션 -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">Selected projects that showcase my expertise</p>
+            </div>
+            <div class="work-grid">
+                <!-- 프로젝트 1 -->
+                <div class="work-item" data-category="web">
+                    <div class="work-image">
+                        <div class="image-overlay">
+                            <div class="work-links">
+                                <a href="https://github.hyomuel.com" class="work-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/hyomuel/hyomuel.github.io" class="work-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <div class="work-meta">
+                            <span class="work-category">Portfolio Website</span>
+                            <span class="work-year">2025</span>
+                        </div>
+                        <h3 class="work-title">효무엘 포트폴리오</h3>
+                        <p class="work-description">개인 포트폴리오 웹사이트로, 반응형 디자인과 모던한 UI/UX를 적용했습니다.</p>
+                        <div class="work-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">GitHub Pages</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 프로젝트 2 -->
+                <div class="work-item" data-category="bot">
+                    <div class="work-image">
+                        <div class="image-overlay">
+                            <div class="work-links">
+                                <a href="https://github.com/hyomuel/base_bot" class="work-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work-placeholder">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <div class="work-meta">
+                            <span class="work-category">Discord Bot</span>
+                            <span class="work-year">2025</span>
+                        </div>
+                        <h3 class="work-title">Discord Bot Base</h3>
+                        <p class="work-description">py-cord를 이용한 디스코드 봇 베이스 프로젝트로, 다양한 기능을 쉽게 추가할 수 있는 구조입니다.</p>
+                        <div class="work-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">py-cord</span>
+                            <span class="tech-tag">Discord API</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 프로젝트 3 -->
+                <div class="work-item" data-category="python">
+                    <div class="work-image">
+                        <div class="image-overlay">
+                            <div class="work-links">
+                                <a href="https://github.com/hyomuel/Lotto" class="work-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work-placeholder">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <div class="work-meta">
+                            <span class="work-category">Python Application</span>
+                            <span class="work-year">2025</span>
+                        </div>
+                        <h3 class="work-title">Lotto Project</h3>
+                        <p class="work-description">로또 관련 Python 프로젝트로, 데이터 분석과 자동화 기능을 포함한 애플리케이션입니다.</p>
+                        <div class="work-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Automation</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">질문이나 제안사항이 있으시면 연락주세요!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>help@hyomuel.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Seoul, South Korea</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Availability</h3>
+                            <p>08 am ~ 02 am</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/mvgqadqv" method="POST" role="form" aria-label="연락처 폼">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-help">
+                            <div id="name-help" class="sr-only">이름을 입력해주세요</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-help">
+                            <div id="email-help" class="sr-only">유효한 이메일 주소를 입력해주세요</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true" aria-describedby="message-help"></textarea>
+                            <div id="message-help" class="sr-only">메시지를 입력해주세요</div>
+                        </div>
+                        <input type="hidden" name="_subject" value="포트폴리오 문의">
+                        <input type="hidden" name="_next" value="https://github.hyomuel.com">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span>효무엘</span>
+                    </div>
+                    <p>미래로 걸어나가는 개발자가 되자</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 효무엘. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
